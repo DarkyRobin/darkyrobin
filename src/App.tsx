@@ -25,7 +25,7 @@ const App: React.FC = () => {
         {/* Content area */}
         <div className="flex-1 bg-gray-100">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/darkyrobin" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<ProjectDetail />} />
             <Route path="/about" element={<AboutMe />} />
