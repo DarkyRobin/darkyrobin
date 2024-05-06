@@ -15,7 +15,7 @@ const App: React.FC = () => {
         {/* Sidebar navigation */}
         <div className="bg-gray-800 text-white w-96 p-4 place-content-center">
           <ul className="space-y-2">
-            <li><Link to="/" className="block p-5 text-3xl hover:bg-gray-600 transition-colors duration-300">Home</Link></li>
+            <li><Link to="/darkyrobin" className="block p-5 text-3xl hover:bg-gray-600 transition-colors duration-300">Home</Link></li>
             <li><Link to="/projects" className="block p-5 text-3xl hover:bg-gray-600 transition-colors duration-300">Projects</Link></li>
             <li><Link to="/about" className="block p-5 text-3xl hover:bg-gray-600 transition-colors duration-300">About Me</Link></li>
             <li><Link to="/contact" className="block p-5 text-3xl hover:bg-gray-600 transition-colors duration-300">Contact</Link></li>
